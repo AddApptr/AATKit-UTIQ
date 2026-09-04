@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta2"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -38,13 +38,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATUtiq",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/Utiq.zip",
-            checksum: "8021ec02ffa29be58b0e08e2a380dd55c28f10b9add5685677b7f564779578f8"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/Utiq.zip",
+            checksum: "d7b8f27b5ca7503a632984a43aba8c2a46ce9d4e30892c52fb3171e97d884f71"
         ),
         .binaryTarget(
             name: "AATUTIQAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/AATUTIQAdapter.zip",
-            checksum: "89ea538534c138f4149076b734ac596f67177bc6250c583a6b979ae0ecfb9f14"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATUTIQAdapter.zip",
+            checksum: "d11e755f4de3eab4835001ed54f5dde25591f27ed5326fcc5554a748dc48ca43"
         ),
     ]
 )
